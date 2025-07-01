@@ -2,6 +2,13 @@ import path from 'node:path';
 import react from '@vitejs/plugin-react';
 import { createLogger, defineConfig } from 'vite';
 
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  base: '/my-vite-site/', // Use the name of your GitHub repo here!
+});
+
+
 const configHorizonsViteErrorHandler = `
 const observer = new MutationObserver((mutations) => {
 	for (const mutation of mutations) {
