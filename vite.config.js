@@ -5,7 +5,7 @@ import { createLogger, defineConfig } from 'vite';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/my-vite-site/', // Use the name of your GitHub repo here!
+  base: '/New-green-root-incomplete/', // Use the name of your GitHub repo here!
 });
 
 
