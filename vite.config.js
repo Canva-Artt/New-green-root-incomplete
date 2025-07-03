@@ -182,6 +182,8 @@ logger.error = (msg, options) => {
 }
 
 export default defineConfig({
+  base: '/GreenRoots-java-without-gateway/', // <--- Added this line only
+
 	customLogger: logger,
 	plugins: [react(), addTransformIndexHtml],
 	server: {
